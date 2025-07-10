@@ -1,4 +1,4 @@
-# Masters Thesis Enhancing Understanding of Arbovirus Competence through Machine Learning and Feature Analysis.
+# Masters Thesis: Enhancing Understanding of Arbovirus Competence through Machine Learning and Feature Analysis.
 This project introduced me to SHAP (SHapley Additive ExPlanations) and how it can be used to gain useful insights into large biological datasets. Code was written in python and can be found attached as well as the thesis itself. A short explanation of what was accomplished can be found below:
 
 I analysed four large datasets containing mosquito and arbovirus experimental data to identify which features influenced arbovirus competence the most. Three target features were identified, all of each contribute to mosquito arbovirus competence (infection of the mosquito, dissemination and transmission), with a separate dataset made for each. Three classes were engineered for each target feature: a 0% class (no competence), 1-49% class (low competence) and 50-100% class (high competence). Feature selection was performed based on domain knowledge, missing data proportions for each feature, and feature redundancy.
